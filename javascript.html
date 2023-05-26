@@ -1,0 +1,39 @@
+
+<html>
+<head>
+   
+    <title>java script Example</title>
+   </head>
+   <style>
+    body{background-color: darkcyan;}
+    p{color: blue;}
+    h1
+   </style>
+<body>
+    <p> This class will be help you to secure</p>
+    <p id="result2"></p>
+    <h2>Enter the Number that Your want to create Table</h2>
+    <script>
+        var a=10
+
+        function fcall()
+    {
+        var k =document.form1.data1.value;
+        var c=1;
+        var d=0;
+        for(d=1;d<=10;d++)
+        {
+            c=k*d;
+            document.write(k+"x" +d+"="+c+"<br>");
+        }
+    }
+    </script>
+    
+   <form name="form1">
+    <input type="text" name="data1"><br><br>
+    <h2>click the Button to show table</h2>
+    <input type="button" value="click" onclick="fcall()">
+
+   </form>
+</body>
+</html>
